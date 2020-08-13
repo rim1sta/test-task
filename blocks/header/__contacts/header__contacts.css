@@ -1,0 +1,7 @@
+@import url(./icon/header__contacts-icon.css);
+@import url(./mail/header__contacts-mail.css);
+@import url(./call/header__contacts-call.css);
+.header__contacts{
+    display: flex;
+    flex-direction: row;
+}

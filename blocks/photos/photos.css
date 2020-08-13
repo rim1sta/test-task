@@ -1,0 +1,7 @@
+@import url(./__image/photos__image.css);
+@import url(./__show/image__show.css);
+.photos{
+justify-content: stretch;
+display: flex; 
+height: 620px;
+}

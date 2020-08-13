@@ -1,0 +1,12 @@
+@import url(./__control/slider__control.css);
+@import url(./__item-title/slider__item-title.css);
+@import url(./__item/slider__item.css);
+@import url(./__item-text/slider__item-text.css);
+@import url(./__separator/slider__separator.css);
+.slider__wrapper{
+    display: flex;
+    position: relative;
+    left: 430px;
+    width: 676px;
+    overflow: hidden;
+}

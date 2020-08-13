@@ -1,0 +1,16 @@
+@import url(./__title/slider__title.css);
+@import url(./__subtitle/slider__subtitle.css);
+@import url(./__paragraph/slider__paragraph.css);
+@import url(./__buttons/slider__buttons.css);
+@import url(./__wrapper/slider__wrapper.css);
+.slider{
+background-image: url(../../imagesforcss/konf.png);
+background-size: cover;
+max-width: 1920px;
+height: 624px;
+padding-left: 370px;
+display: flex;
+flex-direction: row;
+position: relative;
+overflow: hidden;
+}

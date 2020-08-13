@@ -1,0 +1,5 @@
+@import url(./number/header__contacts-number.css);
+@import url(./paragraph/header__contacts-paragraph.css);
+.header__contacts-call{
+    margin: auto;
+}

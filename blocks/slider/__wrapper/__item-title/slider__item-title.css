@@ -1,0 +1,11 @@
+@import url(./__item-title_inactive/slider__item-title_inactive.css);
+
+.slider__item-title{
+    font-size: 64px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #397DFF;
+    width: 75px;
+    font-weight: bold;
+    margin-top: 185px;
+    margin-bottom: 24px;
+}

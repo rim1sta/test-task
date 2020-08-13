@@ -1,0 +1,7 @@
+.slider__item-text_inactive.slider__item-text_inactive{
+    color: rgba(255, 255, 255, 0.3);
+    margin-left: 38px;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+}

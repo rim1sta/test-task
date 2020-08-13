@@ -1,0 +1,9 @@
+@import url(./__item-text-inactive/slider__item-text_inactiv.css);
+@import url(./__item-text_container/slider__item-text_container.css);
+.slider__item-text{
+    font-size: 14px;
+line-height: 160%;
+color: rgba(255, 255, 255, 0.7);
+width: 282px;
+margin-right: 34px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<div lang="ru">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>DJ-store</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./pages/index.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="header__container">
+                <img src="./images /лого.svg" class="logo" alt="лого">
+                <nav class="header__navigation">
+                    <ul class="header__ul">
+                        <li><a href="#" class="header__link">Главная</a></li>
+                        <li><a href="#" class="header__link">Проекты</a></li>
+                        <li><a href="#" class="header__link">Услуги</a></li>
+                        <li><a href="#" class="header__link">О компании</a></li>
+                        <li><a href="#" class="header__link">Готовые решения</a></li>
+                        <li><a href="#" class="header__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header__contacts">
+                    <img src="./images /mail_icon.svg" class="header__contacts-icon" alt="mail-icon">
+                    <p class="header__contacts-mail">info@sld-store.ru</p>
+                    <img src="./images /telephone.svg" class="header__contacts-icon" alt="telephone-icon">
+                    <div class="header__contacts-call">
+                        <p class="header__contacts-paragraph">Обратный звонок</p>
+                        <p class="header__contacts-number">8 812 615-62-79</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="slider">
+            <div class="slider__description">
+                <p class="slider__subtitle">Оснащение конференц-залов</p>
+                <h2 class="slider__title">Видео конференции </h2>
+                <p class="slider__paragraph">Профессиональное оборудование для конференц-залов предназначено для
+                    проведения и
+                    организации презентаций, совещаний, бизнес-тренингов и онлайн-трансляции контента.</p>
+                <div class="slider__buttons">
+                    <button class="slider__button-call">Обратный звонок</button>
+                    <button class="slider__button-brief">Заполнить бриф</button>
+                </div>
+            </div>
+            <div class="slider__wrapper">
+                <div class="slider__item">
+                    <h3 class="slider__item-title">01</h3>
+                    <p class="slider__item-text">Простота использования оснащения позволяет решать функциональные и
+                        организационные задачи,
+                        оптимизировать работу, проводить мероприятия различного масштаба.</p>
+                </div>
+                <img src="./images /разделитель.svg" alt="" class="slider__separator">
+                <div class="slider__item">
+                    <h3 class="slider__item-title slider__item-title_inactive">02</h3>
+                    <p class="slider__item-text slider__item-text_inactive slider__item-text_container">Применение
+                        инновационных решений для демонстрации культурных и исторических реликвий –
+                        актуальная тенденция, которая успешно применяется в музеях и на площадках альтернативного
+                        искусства. </p>
+                    </p>
+                </div>
+                <img src="./imagesforcss/неактивная влево.svg" class="slider__control slider__control_left"></img>
+                <img src="./imagesforcss/активная вправо.svg"
+                    class="slider__control slider__control_right slider__control_show"></img>
+            </div>
+        </section>
+        <section class="photos">
+            <div class="photos__image">
+                <img src="./images /Group 705.jpg" class="photos__product">
+            </div>
+            <div class="photos__show">
+                <img src="./images /Group 704.jpg" class="photos__office">
+            </div>
+        </section>
+        <div class="popup popup__data">
+            <div class="popup__content">
+                <img class="popup__close" alt=""
+                    src="./images /Pop-up при клике на кнопку обратный звонок - 1920/1440/close_icon.svg">
+                <h2 class="popup__title">Готовы обсудить проект?</h2>
+                <p class="popup__subtitle">Заполните форму ниже и мы свяжемся с вами.</p>
+                <form class="popup__form" name="dataForm" novalidate>
+                    <input type="text" id="userName" name="name" class="popup__input popup__input_type_name" required
+                        minlength="2" placeholder="Имя*">
+                    <input type="number" id="userTel" name="telephone" class="popup__input popup__input_type_number"
+                        required placeholder="Телефон*">
+                    <label class="popup__agreement"><input type="checkbox" class="popup__checkbox">Я согласен с
+                        условиями
+                        обработки <a href="#" class="popup__link">персональных данных</a></label>
+                    <button type="submit" class="button popup__button popup__button_send">Отправить</button>
+                </form>
+            </div>
+        </div>
+        <div class="popup popup__success">
+            <div class="popup__content">
+                <img class="popup__close" alt=""
+                    src="./images /Pop-up при клике на кнопку обратный звонок - 1920/1440/close_icon.svg">
+                <img class="popup__check-mark" alt="" src="./images /Заявка отправлена 1920/1440/Group 3.svg">
+                <h2 class="popup__paragraph">Ваша заявка успешно отправлена. Ожидайте звонка в ближайшее время!</h2>
+                <button type="submit" class="button popup__button popup__button_ok">Ок</button>
+            </div>
+        </div>
+    </body>
